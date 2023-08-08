@@ -35,3 +35,21 @@ go build -o load main.go
 ```
 
 This will generate an executable named `load_platform_arch` in the current directory.
+
+## Output
+
+Something like the following:
+
+```
+2xx requests: 426, non 2xx requests: 0
+Total requests: 426
+Avg requests/worker: 426
+
+Min latency: 15.676958ms
+Max latency: 93.211042ms
+Median latency: 22.681084ms
+90th percentile latency: 26.985ms
+95th percentile latency: 28.549583ms
+99th percentile latency: 34.739958ms
+Average latency: 23.434747ms
+```
