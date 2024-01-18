@@ -23,8 +23,6 @@ go run main.go -help
         Number of workers (default 1)
 ```
 
-You can find the pre-built binaries on the [Releases overview](https://github.com/anthonyringoet/load/releases).
-
 ## Building
 
 To build the `load` CLI tool, run the following command:
@@ -37,6 +35,7 @@ go build -o load main.go
 ```
 
 This will generate an executable named `load_platform_arch` in the current directory.
+You can find the pre-built binaries on the [Releases overview](https://github.com/anthonyringoet/load/releases).
 
 ## Output
 
